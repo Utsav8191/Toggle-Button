@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#app {
+  width: 80px;
+  height: 32px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2.2px solid rgb(233, 6, 6);
+}
+
+#toggle-ball {
+  width: 40%;
+  height: 99%;
+  border-radius: 18px;
+  margin: 0px 1px;
+  background-color: rgb(10, 4, 3);
+  transition: transform 1s;
+}
+.active {
+  transform: translateX(46px);
+  transition: transform 1s;
+}
